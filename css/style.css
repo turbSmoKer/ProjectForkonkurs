@@ -1,0 +1,374 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Caveat:regular,500,600,700);
+/*<------------------------------  Link google fonts  ---------------------------------------------->*/
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #DFF5F2;
+    width: 100%;
+}
+
+
+/*<------------------------------  HEADER  ---------------------------------------------->*/
+
+.SectionNumberOne,
+.SectionNumberTwo,
+.SectionNumberFree {
+    /* display: none; */
+}
+
+.LeftHalf,
+.RightHalf,
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    justify-content: space-around;
+    width: 100%;
+}
+
+.headerContainer {
+    width: 100%;
+    height: 70px;
+    background-color: #87DFD6;
+    position: fixed;
+}
+
+.LinkOfHeader {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.LeftHalf,
+.RightHalf {
+    gap: 20px;
+}
+
+.HeaderLeftImg {
+    width: 80px;
+    height: 60px;
+}
+
+.HeaderLeftText,
+.RightHalf,
+.HeaderTextEGE {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #000000;
+}
+
+.hoverTexth:hover {
+    color: darkblue;
+    transition: 0.3s;
+}
+
+.hoverTexth {
+    transition: 0.3s;
+}
+
+
+/* <---------------------------------------------  First Section----> */
+
+
+.SectionOneContainer {
+    background-image: url('/Img/ImgFirstSection/background.png');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-color: #D7F5F2;
+    background-position: center;
+}
+
+/* <---------------------------------------------  Second Section----> */
+
+
+.SectionTwoContainer {
+    background-image: url('/Img/ImgSecondSection/tyankaBAck.png');
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    flex-flow: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.SectionTwoText {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    display: flex;
+    letter-spacing: 0.2px;
+    color: #000000;
+    margin-left: 20px;
+}
+
+.BtnDefault {
+    display: flex;
+    margin-left: 20px;
+    width: 350px;
+    height: 105px;
+    background: #46CDCF;
+    justify-content: center;
+    align-items: center;
+    border-radius: 144px;
+}
+
+.LinkToAboutEGE {
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+/* <---------------------------------------------  Free Section----> */
+
+
+.ContainerNumberFree,
+.ContainerButtons {
+    background-color: #D7F5F2;
+    width: 100%;
+    height: 99vh;
+    gap: 20px;
+    display: flex;
+    flex-flow: column;
+}
+
+.ContainerNumberFree {
+    flex-flow: row;
+    align-items: center;
+}
+
+h1 {
+    padding-top: 70px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+.TextOfFree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+.linkOfFree {
+    display: flex;
+    text-decoration: none;
+    background-color: #46CDCF;
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    transition: 0.4s;
+}
+
+.BtnForFree {
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    margin-left: 0;
+    margin-top: 150px;
+}
+
+.linkOfFree:hover,
+.BtnDefault:hover {
+    background-color: #FFD0E1;
+    transition: 0.4s;
+}
+
+table.iksweb {
+    width: 1200px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    height: 270px;
+    display: block;
+}
+
+table.iksweb,
+table.iksweb td,
+table.iksweb th {
+    border: 2px solid black;
+}
+
+table.iksweb td,
+table.iksweb th {
+    padding: 3px;
+    width: 20px;
+    height: 35px;
+}
+
+table.iksweb th {
+    background: #347c99;
+    color: #fff;
+    font-weight: normal;
+}
+
+.BtnDefault {
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    margin-left: 0;
+}
+
+
+
+.UnderTable {
+    width: 250px;
+}
+
+.greenTable {
+    background-color: lightgreen;
+}
+
+.orangeTable {
+    background-color: lightpink;
+}
+
+.redTable {
+    background-color: red;
+}
+
+.DTable {
+    background-color: #46CDCF;
+}
+
+.greenTable,
+.orangeTable,
+.redTable,
+.DTable {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #000000;
+}
+
+
+
+
+/* <---------------------------------------------  Four Section---------------------------> */
+.SectionNumberFour {
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+
+}
+
+.FirstIns {
+    width: 300px;
+    height: 300px;
+    background-image: url('/Img/uneverse/mg.jpg');
+    background-size: 150%;
+    background-position: center;
+    border-radius: 20px;
+    margin-top: 40%;
+    background-color: black;
+}
+
+
+.SecIns {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border-radius: 20px;
+    margin-top: 190%;
+    background-size: 120%;
+    background-position: center;
+    background-image: url('/Img/uneverse/мфти.jpg');
+}
+
+
+.ThirdIns {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border-radius: 20px;
+    margin-top: 40%;
+    background-position: center;
+    background-size: 160%;
+    background-image: url('/Img/uneverse/спгу.jpg');
+}
+
+
+.FourthIns {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border-radius: 20px;
+    margin-top: 190%;
+    background-size: 160%;
+    background-position: center;
+    background-image: url('/Img/uneverse/вшэ.jpg');
+}
+
+.FourthInsImg {}
+
+.FourthInsAdress,
+.FourthInsImg,
+.ThirdInsName,
+.ThirdInsAdress,
+.SecInsName,
+.SecInsAdress,
+.FourthInsName,
+.FirstInsAdress,
+.FirstInsName {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: black;
+    background-color: #fff;
+}
+
+.ThirdInsAdress {
+    font-size: 30px;
+}
+
+.FirstIns,
+.SecIns,
+.ThirdIns,
+.FourthIns {
+    display: flex;
+    flex-flow: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: end;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
